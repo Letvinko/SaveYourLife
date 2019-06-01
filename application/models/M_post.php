@@ -12,8 +12,8 @@ class M_post extends CI_model
 	public function tambahPostingan()
 	{
     $data = [
-			"judul" => $this->input->post('nama', true),
-			"post" => $this->input->post('nim', true),
+			"judul" => $this->input->post('judul', true),
+			"post" => $this->input->post('posting', true),
 		];
 
 

@@ -41,6 +41,7 @@ class C_syl extends CI_Controller{
 
 	public function postingan(){
 		$this->M_post->tambahPostingan();
+		$this->forum();
 	}
 
 }

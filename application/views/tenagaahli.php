@@ -2,8 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="icon" href="E:\Test codingan\HTML\TUBES MBD\Logo.png">
-    <title><?=$data['judul'];?></title>
+    <link rel="icon" href="<?=base_url();?>/assets/Logo.png">
+    <title><?=$judul;?></title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -120,7 +120,7 @@
             <a href="#" ><img src="http://www.logospng.com/images/0/logos-facebook-icon-ios-7-iconset-icons8-198.png" alt="" style="width:85px; margin-right:10px;"></a>
             <a href="#" ><img src="https://cdn3.iconfinder.com/data/icons/transparent-on-dark-grey/500/icon-04-512.png" alt="" style="width:85px;  margin-right:10px;"></a>
             <a href="#" ><img src="https://tai.com.ph/wp-content/uploads/2019/03/23681.png" alt="" style="width:85px;  margin-right:10px;"></a>
-            <a href="#"><img src="https://image.flaticon.com/icons/png/512/69/69881.png" alt="" style="width:85px; margin-right:10px;"></a>
+            <a href="<?= base_url();?>/C_syl/gabung"><img src="https://image.flaticon.com/icons/png/512/69/69881.png" alt="" style="width:85px; margin-right:10px;"></a>
           </center>
         </div>
         <div class="row">
